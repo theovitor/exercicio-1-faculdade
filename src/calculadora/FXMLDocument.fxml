@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="290.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="75.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Número:" wrappingWidth="202.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dobro:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="22.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Triplo:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quadrado:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="23.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cubo:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="butaoC" layoutX="133.0" layoutY="219.0" mnemonicParsing="false" onAction="#calcular" text="Calcular">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="textFieldNumero" layoutX="150.0" layoutY="28.0" />
+      <Text fx:id="textD" layoutX="80.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="106.78662049770355">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="textT" layoutX="76.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.6708984375">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="textQ" layoutX="110.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="79.31396315991879">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="textC" layoutX="71.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="87.00000225007534">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
